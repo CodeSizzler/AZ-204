@@ -3,5 +3,5 @@ This repo contains demo handouts to be executed which can help you to get prepar
 
 Feel free to comment if you have any queries.
 
-Cheers,
+Cheers,<br>
 CodeSizzler.
