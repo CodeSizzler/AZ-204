@@ -1,8 +1,5 @@
 <h1>Create a Virtual machine using Azure Portal </h1>
 
-<h2>Use Case: </h2>
-<p>In this article you will learn how to deploy a multi container instance using YAML file. Run a simple two-container sidecar configuration by deploying a YAML file using the Azure CLI. A container group is useful when building an application sidecar for logging, monitoring, or any other configuration where a service needs a second attached process.</p>
-
 <h2>Prerequisites</h2>
 <p>You need an Azure subscription to perform these steps. If you don't have one you can create one by following the steps outlined on the Create your Azure free account today webpage.</p>
 
