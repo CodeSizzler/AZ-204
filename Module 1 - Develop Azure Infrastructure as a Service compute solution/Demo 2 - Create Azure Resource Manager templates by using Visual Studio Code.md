@@ -12,7 +12,7 @@
      <p>�	Search for Azure Resource Manager Tools, and then select Install.</p>
      <p>�	Select Reload to finish the extension installation.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/1.png"/>
-<p>2. Now open the template in the visual studio code, navigate to open files in the file tool bar. Search the file in the file name as</p>
+<p>2. Now open the template in the visual studio code, navigate to open files in the file tool bar. Navigate to the below link, download the template file save it to your local machine and then open the downloaded template in the Visual Studio Code</p>
  <p>https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/2.png"/>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/2.1.png"/>
@@ -31,7 +31,7 @@
   <p>New-AzResourceGroup -Name $resourceGroupName -Location "$location"</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/7.png"/>
 <p>8. Once you created the resource group, now update the template file you have save early by using the following command.</p>
-<p>New-AzResourceGroupDeplyment -ResourceGroupName $resourceGroupName -TemplateFile "$Home/azuredeploy.json"</p>
+<p>New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateFile "$Home/azuredeploy.json"</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/8.png"/>
 <p>9.The storage account name and the storage URL in the outputs section are highlighted on the screenshot. You need the storage account name in the next step.</p>
 <p>Now run the following command in the powershell to list the newly created storage account</p>
