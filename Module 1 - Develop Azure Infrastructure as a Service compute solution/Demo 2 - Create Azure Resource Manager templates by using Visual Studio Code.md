@@ -15,7 +15,6 @@
 <p>2. Now open the template in the visual studio code, navigate to open files in the file tool bar. Navigate to the below link, download the template file save it to your local machine and then open the downloaded template in the Visual Studio Code</p>
  <p>https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/2.png"/>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-002/2.1.png"/>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/2.2.png"/>
 <p>3. Once the file is opened save the file as azuredeploy.json to your local computer.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/3.png"/>
@@ -27,7 +26,7 @@
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/6.png"/>
 <p>7. Now create a resource group in a valid location using the following command.</p>
   <p>$resourceGroupName = Read-Host -Prompt "Enter the Resource Group name"</p>
-  <p>$location = Read-Host -Prompt "Enter the location (i.e. centralus)"</p>
+  <p>$location = Read-Host -Prompt "Enter the location"</p>
   <p>New-AzResourceGroup -Name $resourceGroupName -Location "$location"</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-002/7.png"/>
 <p>8. Once you created the resource group, now update the template file you have save early by using the following command.</p>
