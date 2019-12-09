@@ -38,9 +38,9 @@
 <span>&#8226;</span>Select the Amazon (ADM) platform to set up the push notification.
 <span>&#8226;</span>Enter the Client ID and Client Secret.
 <span>&#8226;</span>Click the Save icon.
-<img src="https://codesizzlergit.blob.core.windows.net/az203-2-001/10.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-2-003/10.png"/>
 <h2>Baidu (Android China)</h2>
 <span>&#8226;</span>Select the Baidu (Android China) platform from the settings to set up the push notification.
 <span>&#8226;</span>Enter the API Key and Secret Key that you obtained from the Baidu console in the Baidu cloud push project.
 <span>&#8226;</span>Finally click the Save icon.
-<img src="https://codesizzlergit.blob.core.windows.net/az203-2-001/11.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-2-003/11.png"/>
