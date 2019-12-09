@@ -1,5 +1,8 @@
 <h1>Create a Virtual machine using Azure Portal </h1>
 
+<h2>Use Case</h2>
+<p>In this walkthrough task we will create a virtual machine in Azure via the Azure Portal, configure it as a web server and connect to the web server over the internet.</p>
+
 <h2>Prerequisites</h2>
 <p>You need an Azure subscription to perform these steps. If you don't have one you can create one by following the steps outlined on the Create your Azure free account today webpage.</p>
 
