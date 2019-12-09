@@ -18,12 +18,12 @@
 <p>3. This will navigate you to the project settings page from that page you can get the API key in the general category.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-2-003/5.png"/>
 <p>4. Once you get the API key use that key in the Google Platform to set up the push notification and then click Save. When you complete these steps, an alert indicates that the notification hub has been successfully updated. Note that the Save button is disabled.</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-2-003/6.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-2-003/6.PNG"/>
 
 <h2>Apple Push Notification Service (APNS)</h2>
 <p>Select the Apple platform to set up push notification in the Notification Hub and do the following steps</p>
 <span>&#8226;</span>For Authentication Mode, select either Certificate or Token.
-<img src="https://codesizzlergit.blob.core.windows.net/az203-2-003/7.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-2-003/7.PNG"/>
 <h2>Windows Push Notification Service (WNS)</h2>
 <span>&#8226;</span>Select the windows (WNS) platform in the settings.
 <span>&#8226;</span>Enter values for the Package SID and Security Key.
