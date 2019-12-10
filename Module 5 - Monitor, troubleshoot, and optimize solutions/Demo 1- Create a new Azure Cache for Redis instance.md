@@ -30,9 +30,8 @@
 <p>In Visual Studio, click Tools > NuGet Package Manager > Package Manager Console, and run the following command from the Package Manager Console window</p>
 <p>Install-Package StackExchange.Redis</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/5.png"/>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/5.1.png"/>
 <p>Once the command run successfully you will the following result.</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/6.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/5.1.png"/>
 <p>Now connect the app to the cache, In Visual Studio, open your App.config file and update the following command to include an appSettings file attribute that references the CacheSecrets.config file.</p>
 <?xml version="1.0" encoding="utf-8" ?>
     <p><configuration></p>
@@ -41,14 +40,14 @@
         <p></startup></p>
         <p><appSettings file="C:\AppSecrets\CacheSecrets.config"></appSettings></p>
     <p></configuration></p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/7.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/6.png"/>
 <p>In Solution Explorer, right-click References and click Add a reference. Add a reference to the System.Configuration assembly.</p>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/7.png"/>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/8.png"/>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/9.png"/>
 <p>Add the following using command in the program.cs.</p>
             <p>using StackExchange.Redis;</p>
             <p>using System.Configuration;</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/10.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/9.png"/>
 <p>The connection to the Azure Cache for Redis is managed by the ConnectionMultiplexer class. This class should be shared and reused throughout your client application. Do not create a new connection for each operation. In Program.cs, add the following members to the Program class of your console application.</p>
 <p>private static Lazy<ConnectionMultiplexer> lazyConnection = new Lazy<ConnectionMultiplexer>(() =></p>
     <p>{</p>
@@ -63,7 +62,7 @@
             <p>return lazyConnection.Value;</p>
         <p>}</p>
     <p>}</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/11.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/10.png"/>
 <p>Once you connected to the cache, now execute the cache command by adding the following command for the Main procedure of the Program class for your console application.</p>
 <p>static void Main(string[] args)</p>
 <p>{</p>
@@ -100,6 +99,6 @@
     <p>lazyConnection.Value.Dispose();</p>
 <p>}</p>
 
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/12.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/11.png"/>
 <p>Once you execute the cache, now Press Ctrl+F5 to build and run the console app.</p>
-
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/12.png"/>
