@@ -33,14 +33,8 @@
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/5.1.png"/>
 <p>Once the command run successfully you will the following result.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/6.png"/>
-<p>Now connect the app to the cache, In Visual Studio, open your App.config file and update the following command to include an appSettings file attribute that references the CacheSecrets.config file.</p>
-<p><?xml version="1.0" encoding="utf-8" ?></p>
-    <p><configuration></p>
-        <p><startup></p> 
-            <p><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.1" /></p>
-        <p></startup></p>
-        <p><appSettings file="C:\AppSecrets\CacheSecrets.config"></appSettings></p>
-    <p></configuration></p>
+<p>Now connect the app to the cache, In Visual Studio, open your App.config file and update the command in the following link to include an appSettings file attribute that references the CacheSecrets.config file.</p>
+<p>http://bit.ly/CacheScript</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/7.png"/>
 <p>In Solution Explorer, right-click References and click Add a reference. Add a reference to the System.Configuration assembly.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/8.png"/>
