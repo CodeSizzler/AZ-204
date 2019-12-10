@@ -13,18 +13,19 @@
 <p>code deploy-aci.yaml</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/2.png"/>
 <p>Now configure the YAML by copy pasting the script from http://bit.ly/YAMLScript</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/3.png"/>
 <p>Once you add the above YAML file click save button.</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/4.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/3.png"/>
 <p>Now use the following command to create a resource group.</p>
 <p>az group create --name Codesizzler_Rg --location CentralUS</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/5.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/4.png"/>
 <p>Now use the following command to create a container in Azure. Select the YAML file you added early.</p>
 <p>az container create --resource-group Codesizzler_Rg --file deploy-aci.yaml</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/6.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/5.png"/>
 <p>Once you have created the container, use the following command to view the output table.</p>
 <p>az container show --resource-group Codesizzler_Rg --name codesizzleryamlcontainer --output table</p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/7.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/6.png"/>
 <p>Now use the following command to view one of the container logs</p>
 <p>az container logs --resource-group Codesizzler_Rg --name codesizzleryamlcontainer --container-name aci-tutorial-app</p>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/7.png"/>
+<p>Now use the following command to view another container logs</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-4-001/8.png"/>
