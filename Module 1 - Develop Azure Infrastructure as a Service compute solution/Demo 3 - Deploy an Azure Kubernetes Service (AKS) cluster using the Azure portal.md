@@ -24,6 +24,7 @@
 <img src="https://codesizzlergit.blob.core.windows.net/az203-004/7.png"/>
 <p>7. Now you have run the cluster by kubernets manifest. A Kubernetes manifest file defines a desired state for the cluster, such as what container images to run. A manifest is used to create all objects needed to run the Azure Vote application. This manifest includes two Kubernetes deployments - one for the sample Azure Vote Python applications, and the other for a Redis instance. Two Kubernetes Services are also created - an internal service for the Redis instance, and an external service to access the Azure Vote application from the internet. Now in the PowerShell you have to create a file named azure-vote.yaml using nano or vi. And copy the following YAML definition:</p>
 <p>Copy pate the script from here - http://bit.ly/AKSscript</p>
+<p>The created file using nano will be shown like the following image. </p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-004/8.png"/>
 <p>8. Once the file is created now you have to deploy the application using kubectl apply command and you have to specify the YAML manifest name like the following command:</p>
 <p>kubectl apply -f azure-vote.yaml</p>
