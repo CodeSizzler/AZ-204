@@ -30,8 +30,9 @@
 <p>In Visual Studio, click Tools > NuGet Package Manager > Package Manager Console, and run the following command from the Package Manager Console window</p>
 <p>Install-Package StackExchange.Redis</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/5.png"/>
-<p>Once the command run successfully you will the following result.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/5.1.png"/>
+<p>Once the command run successfully you will the following result.</p>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/6.png"/>
 <p>Now connect the app to the cache, In Visual Studio, open your App.config file and update the following command to include an appSettings file attribute that references the CacheSecrets.config file.</p>
 <?xml version="1.0" encoding="utf-8" ?>
     <p><configuration></p>
@@ -40,10 +41,10 @@
         <p></startup></p>
         <p><appSettings file="C:\AppSecrets\CacheSecrets.config"></appSettings></p>
     <p></configuration></p>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/6.png"/>
-<p>In Solution Explorer, right-click References and click Add a reference. Add a reference to the System.Configuration assembly.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/7.png"/>
+<p>In Solution Explorer, right-click References and click Add a reference. Add a reference to the System.Configuration assembly.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/8.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/8.1.png"/>
 <p>Add the following using command in the program.cs.</p>
             <p>using StackExchange.Redis;</p>
             <p>using System.Configuration;</p>
