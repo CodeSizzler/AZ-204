@@ -9,11 +9,12 @@
 <h2>Steps:</h2>
 <p>1. Login to your Microsoft Azure portal, click on Create new resource and select Azure CosmosDB from Databases category to create a CosmosDB Account and give the necessary details as follows.</p>
 
-    <p>ID: A Unique Name</p>
-    <p>API: Azure table</p>
-    <p>Subscription: Select your subscription</p>
-    <p>Resource group: Create a new as CosmosDBDemo</p>
-    <p>Location: Nearest to you Check Enable geo-redundancy</p>
+ID - a unique name
+<p> API - Azure Table </p>
+<p> Subscription - Select your subscription </p>
+<p> Resource Group - Create a new resource group </p>
+<p> Location - Any DC location of your choice </p>
+
 
 <img src="https://codesizzlergit.blob.core.windows.net/az203-3-6/1.jpg"/>
 <p>2. Once the deployment is succeeded, open the resource and click on Quick start/Connection String and note the Connection String key for a later purpose.</p>
