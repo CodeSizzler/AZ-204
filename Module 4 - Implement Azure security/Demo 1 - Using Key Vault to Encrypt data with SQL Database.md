@@ -39,6 +39,7 @@
 <p>12. Expand Databases Right click keyvalutdatabase and click a New Query button.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-4-003/15.png"/>
 <p>13. Expand Databases>Keyvalutdatabas Right-click the Patients table and select Encrypt Columns to open the Always Encrypted wizard.</p>
+ <p>Copy past the script form here - http://bit.ly/SQLKeyVault and click on execute.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-4-003/16.png"/>
 <p>14. When it prompts click on next.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-4-003/17.png"/>
