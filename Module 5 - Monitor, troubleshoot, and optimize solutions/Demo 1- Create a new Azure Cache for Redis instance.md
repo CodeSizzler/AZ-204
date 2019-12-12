@@ -17,11 +17,7 @@
 <p>4. Now copy the host name in the properties section</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-001/4.png"/>
 <p>Create a file on your computer named CacheSecrets.config and place it in a location where it won't be checked in with the source code of your sample application. In this demo CacheSecrets.config file is located here, C:\AppSecrets\CacheSecrets.config.</p>
-<p>Now edit the CacheSecrets.config and add the following command.</p>
-    <p><appSettings></appSettings></p>
-        <p><add key="CacheConnection" value="<cache-name>.redis.cache.windows.net,abortConnect=false,ssl=true,password=<access-key>"/></p>
-    <p></appSettings></p>
-<p>Replace <cache-name> with your cache host name. Replace <access-key> with the primary key for your cache.</p>
+<p>Now edit the CacheSecrets.config and add the script  from - http://bit.ly/RedishScript.</p>
 
 <h2>Create a console app</h2>
 <p>In Visual Studio, click File > New > Project.</p>
