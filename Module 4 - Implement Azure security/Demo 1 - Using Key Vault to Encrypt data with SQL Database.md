@@ -54,4 +54,4 @@
 <img src="https://codesizzlergit.blob.core.windows.net/az203-4-003/22.png"/>
 <p>19. Verify that the settings are all correct and click Finish to complete the setup.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-4-003/23.png"/>
-<img src="https://codesizzlergit.blob.core.windows.net/az203-001/24.png"/>
+<img src="https://codesizzlergit.blob.core.windows.net/az203-4-003/24.png"/>
