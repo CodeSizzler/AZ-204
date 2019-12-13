@@ -10,7 +10,7 @@
 <p>1. Log-in to Azure portal with your account using www.portal.azure.com. Select the cloud shell button on the top right menu bar in the Azure portal.</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-6-003/1.png"/>
 <p>2. Once you open the Cloud Shell, now create the Resource Group using the following Bash command.</p>
- <p>resourceGroupName="codesizzler_rg"</p>
+ <p>$resourceGroupName="codesizzler_rg"</p>
  <p>az group create --name $resourceGroupName --location CentralUS</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-6-003/2.png"/>
 <p>3. Now create a service bus namespace with the unique name by using the following command.</p>
