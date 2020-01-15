@@ -16,7 +16,7 @@
 <p>3. Now create a CDN profile using the following command.</p>
   <p>az cdn profile create --location CentralUS --name cdprofile --resource-group Codesizzler-RG --sku Standard_Verizon</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-002/3.png"/>
-<p>4. Once you created the CDN profile, now create a CDN endpoint in the exciting CDN profile using the following command.</p>
+<p>4. Once you created the CDN profile, now create a CDN endpoint in the existing CDN profile using the following command.</p>
   <p>az cdn endpoint create -g Codesizzler-RG -n cdendpoint --profile-name cdprofile --origin www.codesizzlerdemocdn.com 88 4444</p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-5-002/4.png"/>
 <p>5. Now navigate to the Resource Group created, as result you can see the CDN profile and the CDN endpoint.</p>
