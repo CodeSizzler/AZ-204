@@ -45,7 +45,6 @@
         <p>string cacheConnection = ConfigurationManager.AppSettings["CacheConnection"].ToString();</p>
         <p>return ConnectionMultiplexer.Connect(cacheConnection);</p>
     <p>});</p>
-
     <p>public static ConnectionMultiplexer Connection</p>
     <p>{</p>
         <p>get</p>
@@ -60,33 +59,26 @@
     <p>// Connection refers to a property that returns a ConnectionMultiplexer</p>
     <p>// as shown in the previous example.</p>
     <p>IDatabase cache = lazyConnection.Value.GetDatabase();</p>
-
     <p>// Perform cache operations using the cache object...</p>
-
     <p>// Simple PING command</p>
     <p>string cacheCommand = "PING";</p>
     <p>Console.WriteLine("\nCache command  : " + cacheCommand);</p>
     <p>Console.WriteLine("Cache response : " + cache.Execute(cacheCommand).ToString());</p>
-
     <p>// Simple get and put of integral data types into the cache</p>
     <p>cacheCommand = "GET Message";</p>
     <p>Console.WriteLine("\nCache command  : " + cacheCommand + " or StringGet()");</p>
     <p>Console.WriteLine("Cache response : " + cache.StringGet("Message").ToString());</p>
-
     <p>cacheCommand = "SET Message \"Hello! The cache is working from a .NET console app!\"";</p>
     <p>Console.WriteLine("\nCache command  : " + cacheCommand + " or StringSet()");</p>
     <p>Console.WriteLine("Cache response : " + cache.StringSet("Message", "Hello! The cache is working from a .NET console app!").ToString());</p>
-
     <p>// Demonstrate "SET Message" executed as expected...</p>
     <p>cacheCommand = "GET Message";</p>
     <p>Console.WriteLine("\nCache command  : " + cacheCommand + " or StringGet()");</p>
     <p>Console.WriteLine("Cache response : " + cache.StringGet("Message").ToString());</p>
-
     <p>// Get the client list, useful to see if connection list is growing...</p>
     <p>cacheCommand = "CLIENT LIST";</p>
     <p>Console.WriteLine("\nCache command  : " + cacheCommand);</p>
     <p>Console.WriteLine("Cache response : \n" + cache.Execute("CLIENT", "LIST").ToString().Replace("id=", "id="));</p>
-
     <p>lazyConnection.Value.Dispose();</p>
 <p>}</p>
 
