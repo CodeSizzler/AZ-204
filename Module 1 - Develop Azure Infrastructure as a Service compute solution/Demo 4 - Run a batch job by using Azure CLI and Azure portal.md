@@ -22,7 +22,7 @@
     <p><b> az batch account create --name mybatchaccount --storage-account mystorageaccount --resource-group myResourceGroup --location eastus2</b></p>
 <img src="https://codesizzlergit.blob.core.windows.net/az203-003/4.JPG"/>
 <p>5. To create and manage compute pools and jobs, you need to authenticate with Batch. Log in to the account with the batch account login command. After you log in, your batch commands use this account context.</p>
-<p><b> az batch account login --name mybatchaccount --resource-group myResourceGroup --shared-key-auth</b>></p>
+<p><b> az batch account login --name mybatchaccount --resource-group myResourceGroup --shared-key-auth </b>></p>
 
 <h2>Create a pool of compute nodes</h2>
 <p>1. Have a Batch account, create a sample pool of compute nodes using the batch pool create command. The following example creates a pool named mypool of 2 size Standard_A1_v2 nodes running Ubuntu 16.04 LTS. The suggested node size offers a good balance of performance versus cost for this example.</p>
